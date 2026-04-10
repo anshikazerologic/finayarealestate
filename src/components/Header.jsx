@@ -32,8 +32,8 @@ export default function Header() {
     return (
         <nav
             className={cn(
-                'fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4',
-                isScrolled || location.pathname === '/learn' ? 'bg-teal-700  py-3' : 'bg-teal-700/20'
+                'fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-2',
+                isScrolled || location.pathname === '/learn' ? 'bg-teal-700  ' : 'bg-teal-700/20'
             )}
         >
             <div className=" mx-auto flex items-center justify-between">
