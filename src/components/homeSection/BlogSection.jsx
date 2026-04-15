@@ -22,7 +22,7 @@ const articles = [
 
 export default function BlogSection() {
   return (
-    <section className="px-5 md:px-10 lg:px-24 py-11 bg-white">
+    <section className="px-5 md:px-10 lg:px-24 pt-11 bg-white">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16  gap-6">
           <div>
@@ -68,7 +68,7 @@ export default function BlogSection() {
           ))}
         </div>
 
-        <div className='mt-10'>
+        <div className='my-10'>
              <button className="flex items-center gap-2 px-8 py-3 rounded-full border border-zinc-900 text-sm font-medium hover:bg-gray-100 transition-colors w-fit">
             Check Other Articles
             <ArrowRight className="w-4 h-4" />

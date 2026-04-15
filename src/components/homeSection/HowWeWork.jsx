@@ -30,7 +30,7 @@ const steps = [
 
 export default function HowWeWork() {
   return (
-    <section className="px-5 md:px-10 lg:px-24 py-11 bg-white">
+    <section className="px-5 md:px-10 lg:px-24 pt-11 bg-white">
       <div className="container-custom">
         <div className="mb-16">
           <p className="text-xs font-medium font-inter text-zinc-900  tracking-tight mb-4">How We Work</p>
@@ -54,7 +54,7 @@ export default function HowWeWork() {
                 index % 2 !== 0 ? "md:flex-col-reverse" : "md:flex-col"
               )}>
                 <div className={cn(
-                  "relative overflow-hidden rounded-2xl aspect-4/5",
+                  "relative overflow-hidden rounded-2xl  aspect-5/4 md:aspect-4/5",
                   index % 2 !== 0 ? "md:mt-3" : "md:mb-3"
                 )}>
                   <img 

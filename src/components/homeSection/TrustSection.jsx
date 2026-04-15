@@ -15,7 +15,7 @@ const logos = [
 
 export default function TrustSection() {
   return (
-    <section className="px-5 md:px-10 lg:px-24 py-11 bg-surface">
+    <section className="px-5 md:px-10 lg:px-24 pt-11 bg-surface">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2  gap-20 items-center">
           

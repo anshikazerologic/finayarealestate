@@ -24,9 +24,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#003b34] text-white overflow-hidden m-4">
+    <footer className="bg-[#003b34] rounded-2xl text-white overflow-hidden m-4">
       
-      <div className="container-custom  px-5 md:px-10 lg:px-24 py-12">
+      <div className="container-custom  px-5 md:px-10 lg:px-24 pt-12">
         
         
         <div className="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-16 mb-12">
