@@ -33,9 +33,9 @@ export default function HowWeWork() {
     <section className="px-5 md:px-10 lg:px-24 py-11 bg-white">
       <div className="container-custom">
         <div className="mb-16">
-          <p className="text-xs font-medium font-inter text-zinc-900  tracking-[0.2em] mb-4">How We Work</p>
-          <h2 className="text-4xl md:text-5xl font-medium font-inter text-zinc-900">
-            Home Buying <span className=" text-teal-700 italic font-inter font-medium">Made Simple</span>
+          <p className="text-xs font-medium font-inter text-zinc-900  tracking-tight mb-4">How We Work</p>
+          <h2 className="text-4xl md:text-5xl font-medium font-inter tracking-tight text-zinc-900">
+            Home Buying <span className=" text-teal-700 italic font-inter tracking-tight font-medium">Made Simple</span>
           </h2>
         </div>
 
@@ -47,7 +47,7 @@ export default function HowWeWork() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className={cn(step.className, "flex flex-col")}
+              className={cn(step.className, "flex flex-col mb-4 ")}
             >
               <div className={cn(
                 "group relative h-full flex flex-col",
@@ -66,8 +66,8 @@ export default function HowWeWork() {
                   <div className="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-inter font-medium text-gray-900 my-3">{step.title}</h3>
-                  <p className="text-sm font-inter font-normal text-gray-500 leading-relaxed line-clamp-2">
+                  <h3 className="text-xl font-inter font-medium tracking-tight text-gray-900 my-3">{step.title}</h3>
+                  <p className="text-sm font-inter font-normal tracking-tight text-gray-500 leading-relaxed line-clamp-2">
                     {step.description}
                   </p>
                 </div>

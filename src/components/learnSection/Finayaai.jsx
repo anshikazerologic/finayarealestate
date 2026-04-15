@@ -35,19 +35,22 @@ export default function Finayaai() {
 
   return (
     <div>
-         <div className="min-h-screen bg-teal-700 flex flex-col items-center justify-center pt-24 pb-32 px-4">
+         <div className="min-h-screen bg-[#007668] flex flex-col items-center justify-center py-20  px-4">
       
       <div 
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         className="flex items-center gap-2 mb-16"
       >
-        <h1 className="text-6xl md:text-8xl font-inter font-bold text-white">finaya</h1>
-        <span className="text-6xl md:text-8xl font-inter font-bold text-[#00e0c5]">ai</span>
+        <img
+        src='/assets/finayaai_bgimg.png'
+        className='w-65 h-20'
+        />
+       
       </div>
 
      
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-3 gap-8 mb-5">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-3 gap-8 ">
         {categoryegories.map((category, idx) => (
           <div 
             key={category.title}

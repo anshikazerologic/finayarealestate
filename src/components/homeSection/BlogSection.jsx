@@ -24,7 +24,7 @@ export default function BlogSection() {
   return (
     <section className="px-5 md:px-10 lg:px-24 py-11 bg-white">
       <div className="container-custom">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16  gap-6">
           <div>
             <p className="text-xs font-medium font-inter text-zinc-900  tracking-[0.2em] mb-4">Blog and Article</p>
             <h2 className="text-4xl md:text-5xl font-medium  text-zinc-900">
@@ -68,7 +68,7 @@ export default function BlogSection() {
           ))}
         </div>
 
-        <div className='mt-5'>
+        <div className='mt-10'>
              <button className="flex items-center gap-2 px-8 py-3 rounded-full border border-zinc-900 text-sm font-medium hover:bg-gray-100 transition-colors w-fit">
             Check Other Articles
             <ArrowRight className="w-4 h-4" />

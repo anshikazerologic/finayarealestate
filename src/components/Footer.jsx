@@ -24,16 +24,16 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#002B26] text-white overflow-hidden">
+    <footer className="bg-[#003b34] text-white overflow-hidden m-4">
       
-      <div className="container-custom px-5 md:px-10 lg:px-24 py-12">
+      <div className="container-custom  px-5 md:px-10 lg:px-24 py-12">
         
         
         <div className="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-16 mb-12">
           
           
           <div className="max-w-md">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-inter mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-inter  mb-8 leading-tight ">
               Get Personal Buying or Selling Assistant
             </h2>
 
@@ -88,16 +88,15 @@ export default function Footer() {
         
         <div className="absolute inset-0 z-0">
           <img
-            src="/assets/footerSection_bgimg.png"
+            src="/assets/footerSection.png"
             alt="Footer Background"
-            className="w-full h-full object-cover opacity-20"
+            className=" md:w-full h-full object-fill "
           />
-          <div className="absolute inset-0 bg-linear-to-b from-[#002B26] via-[#002B26]/20 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-b from-[#003b34] via-[#003b34]/20 to-transparent" />
         </div>
 
-        <h1 className="relative z-10 text-[30vw]  md:text-[25vw] font-inter font-bold text-white/20 leading-none select-none">
-          finaya
-        </h1>
+       
+        
       </div>
     </footer>
   );

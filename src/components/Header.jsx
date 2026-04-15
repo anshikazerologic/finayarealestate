@@ -32,7 +32,7 @@ export default function Header() {
     return (
         <nav
             className={cn(
-                'fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-2',
+                'fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-5 md:px-10 lg:px-20 py-2',
                 isScrolled || location.pathname === '/learn' ? 'bg-teal-700  ' : 'bg-teal-700/20'
             )}
         >
@@ -51,16 +51,16 @@ export default function Header() {
                 </Link>
 
                
-                <div className="hidden md:flex items-center gap-4">
+                <div className="hidden md:flex items-center gap-2">
                     {navLinks.map((link) => (
                         <Link
                             key={link.name}
                             to={link.href}
                             onClick={() => setActiveLink(link.href)}
                             className={cn(
-                                "text-sm font-medium font-inter transition-all  px-4 lg:px-8 py-2 hover:opacity-70",
+                                "text-sm font-medium font-inter transition-all  px-4 lg:px-8 py-1 hover:opacity-70",
                                 isScrolled || location.pathname === '/learn' ? "text-white" : "text-white",
-                                activeLink === link.href && " outline-2  outline-offset-2 rounded-full",
+                                activeLink === link.href && " outline-1  outline-offset-1 rounded-full",
                                 activeLink === link.href && (isScrolled || location.pathname === '/learn' ? "outline-white" : "outline-white")
                             )}
                         >
@@ -75,7 +75,7 @@ export default function Header() {
                         "flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium  transition-all",
                         isScrolled || location.pathname === '/learn'
                             ? "bg-white text-teal-700  "
-                            : "bg-white text-teal-700 outline-2 outline-teal-700 hover:bg-gray-100"
+                            : "bg-white text-teal-700 outline-1 outline-teal-700 hover:bg-gray-100"
                     )}>
                         Contact Us
                         <ArrowRight className="w-4 h-4" />
