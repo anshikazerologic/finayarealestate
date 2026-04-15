@@ -66,7 +66,7 @@ export default function HowWeWork() {
                   <div className="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-inter font-medium tracking-tight text-gray-900 my-3">{step.title}</h3>
+                  <h3 className="text-xl font-inter font-medium tracking-tight text-gray-900 my-1">{step.title}</h3>
                   <p className="text-sm font-inter font-normal tracking-tight text-gray-500 leading-relaxed line-clamp-2">
                     {step.description}
                   </p>

@@ -22,7 +22,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-5xl md:text-7xl font-inter tracking-tight   text-white leading-[1.1] mb-6"
+            className="text-4xl sm:text-5xl md:text-7xl font-inter tracking-tight   text-white leading-[1.1] mb-6"
           >
             Buy Your Dream <br />
             Without <span className="italic font-medium font-inter tracking-tight ">Hassle.</span>
@@ -49,7 +49,7 @@ export default function HeroSection() {
                 <input 
                   type="text" 
                   placeholder="Enter city, address, ZIP code or MLS #"
-                  className="w-full bg-white/10 border border-white/20 rounded-full  py-3.5 px-7 text-white placeholder:text-white/40   outline-2 outline-white  transition-all"
+                  className="w-full bg-white/10 border border-white/20 rounded-full  py-3.5 px-4 text-white placeholder:text-white/40   outline-2 outline-white  transition-all"
                 />
               </div>
             </div>

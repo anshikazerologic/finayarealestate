@@ -24,7 +24,7 @@ export default function TrustSection() {
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="text-3xl md:text-4xl font-inter  font-medium text-gray-900 tracking-tight mb-12"
+              className="text-3xl xl:text-4xl  font-inter  font-medium text-gray-900 tracking-tight mb-12"
             >
               Find your dream home and indulge in a life of <span className="text-teal-700 font-inter tracking-tight font-medium">elegance, sophistication, and perfect living.</span>
             </h2>
