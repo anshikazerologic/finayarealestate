@@ -32,7 +32,7 @@ export default function HowWeWork() {
   return (
     <section className="px-5 md:px-10 lg:px-24 pt-11 bg-white">
       <div className="container-custom">
-        <div className="mb-16">
+        <div className="mb-5">
           <p className="text-xs font-medium font-inter text-zinc-900  tracking-tight mb-4">How We Work</p>
           <h2 className="text-4xl md:text-5xl font-medium font-inter tracking-tight text-zinc-900">
             Home Buying <span className=" text-teal-700 italic font-inter tracking-tight font-medium">Made Simple</span>

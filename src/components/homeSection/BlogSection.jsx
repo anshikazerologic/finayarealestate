@@ -24,7 +24,7 @@ export default function BlogSection() {
   return (
     <section className="px-5 md:px-10 lg:px-24 pt-11 bg-white">
       <div className="container-custom">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16  gap-6">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-5  gap-6">
           <div>
             <p className="text-xs font-medium font-inter text-zinc-900  tracking-[0.2em] mb-4">Blog and Article</p>
             <h2 className="text-4xl md:text-5xl font-medium  text-zinc-900">
